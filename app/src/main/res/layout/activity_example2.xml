@@ -2,11 +2,60 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
+              android:layout_margin="15dp"
               android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_margin="15dp"
+        android:padding="15dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/example_text"/>
+        android:text="@string/hello_world"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:background="@android:color/holo_blue_bright"/>
+    </LinearLayout>
 
-</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_green_light"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
